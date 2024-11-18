@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>2024 11 15 CSS 실습 05</title>
+    <style>
+      [disabled] {
+        background-color: red;
+      }
+      [placeholder="이름"] {
+        background-color: orange;
+      }
+      input:not([placeholder]) {
+        background-color: blue;
+      }
+    </style>
+    <style>
+      div:before {
+        content: "택시";
+      }
+      div:after {
+        content: "빨리";
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" placeholder="이름" />
+    <input type="password" value="pw" />
+    <input type="text" value="000-0000-0000" />
+    <input type="text" placeholder="핸드폰" />
+    <input type="text" placeholder="주민번호" disabled />
+  </body>
+  <body>
+    <div class="box">여기요!</div>
+  </body>
+</html>

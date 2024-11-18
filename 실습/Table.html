@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>표 실습_01</title>
+  </head>
+  <body>
+    <h1>HamJOJO</h1>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>이름</th>
+          <th>성별</th>
+          <th>주소</th>
+          <th>회비</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>최진혁</td>
+          <td>남</td>
+          <td rowspan="2">청주</td>
+          <td>1000</td>
+        </tr>
+        <tr>
+          <td>최유진</td>
+          <td>여</td>
+          <td>500</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">합계</td>
+          <td>1500</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
+<html>
+  <body>
+    <caption>
+      <h1>colspan과 rowspan 이용하기</h1>
+    </caption>
+    <table border="1">
+      <tr>
+        <td colspan="2">1</td>
+        <td rowspan="2">2</td>
+      </tr>
+      <tr>
+        <td rowspan="2">3</td>
+        <td>center</td>
+      </tr>
+      <tr>
+        <td colspan="2">4</td>
+      </tr>
+    </table>
+    <br />
+    <table border="1">
+      <thead>
+        <tr>
+          <th>구분</th>
+          <th>음료</th>
+          <th>가격</th>
+          <th>이미지</th>
+        </tr>
+        <tr>
+          <td rowspan="2">커피류</td>
+          <td>아메리카노</td>
+          <td>4200원</td>
+          <td>
+            <img
+              src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[110563]_20210426095937808.jpg"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>돌체라떼</td>
+          <td>4800원</td>
+          <td>
+            <img
+              src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[128692]_20210426091933665.jpg"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="2">주스류</td>
+          <td>자바칩 프라푸치노</td>
+          <td rowspan="2">5000원</td>
+          <td>
+            <img
+              src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[168016]_20210415154152122.jpg"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>제주 말차 프라푸치노</td>
+          <td>
+            <img
+              src="https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/[9200000002502]_20210426100408048.jpg"
+            />
+          </td>
+        </tr>
+      </thead>
+    </table>
+  </body>
+</html>

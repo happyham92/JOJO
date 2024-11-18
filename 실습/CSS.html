@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>선택자 종합실습</title>
+    <style>
+      form {
+        width: 400px;
+      }
+
+      /* textarea 스타일 */
+      textarea {
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        resize: none;
+      }
+
+      /* 제출 버튼 스타일 */
+      button {
+        float: right;
+        padding: 5px 15px;
+        background-color: #f96666;
+        color: white;
+        font-size: 17px;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+    <style>
+      h3:hover {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>건의 사항을 적어주세요!</h3>
+    <form>
+      <!-- 건의사항 입력란 -->
+      <textarea placeholder="건의 사항 ♥"></textarea>
+
+      <!-- 색상 선택 체크박스 -->
+      <div>
+        <label for="red"><input type="checkbox" id="red" /> 빨강</label>
+        <label for="blue"><input type="checkbox" id="blue" /> 파랑</label>
+        <label for="yellow"><input type="checkbox" id="yellow" /> 노랑</label>
+      </div>
+
+      <!-- 제출 버튼 -->
+      <button type="submit">제출</button>
+    </form>
+  </body>
+</html>
