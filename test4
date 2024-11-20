@@ -1,2 +1,32 @@
-try 
-try
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>속성실습 2</title>
+    <style>
+      .div {
+        background-color: beige;
+        width: 300px;
+        height: 300px;
+      }
+      .sesac {
+        display: inline-block;
+        background-color: blue;
+        color: white;
+        font-size: 40px;
+        font-weight: border;
+        text-align: center;
+        line-height: 200px;
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>calc 및 line-height 사용 해봅시다.</h3>
+    <div clss="div">
+      <div class="sesac">SeSAC</div>
+    </div>
+  </body>
+</html>

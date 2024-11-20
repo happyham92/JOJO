@@ -5,17 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS 선택자 종합 실습</title>
     <style>
+      h3:hover {
+        background-color: black;
+        color: white;
+      }
+
       form {
         width: 400px;
       }
 
       /* focus */
       textarea {
-        width: 600px;
-        height: 300px;
+        width: 500px;
+        height: 200px;
+      }
+      textarea:focus {
+        background-color: #ffafaf;
       }
       /* checked */
-
+      .red {
+        background-color: red;
+      }
+      .blue {
+        background-color: blue;
+      }
+      .yellow {
+        background-color: yellow;
+      }
       /* active */
       button {
         float: right;
@@ -26,11 +42,36 @@
         border-radius: 10px;
         border: none;
       }
+      button:active {
+        background-color: grey;
+        color: #f96666;
+      }
     </style>
   </head>
   <body>
     <h3>건의 사항을 적어주세요!</h3>
-    <textarea name="" id="" placeholder="건의 사항"></textarea> <br />
-    <input type="checkbox" name="빨강" />
+    <form>
+      <textarea name="" id="" placeholder="건의 사항"></textarea> <br />
+      <input
+        type="checkbox"
+        class="red"
+        name="color"
+        value="red"
+        id="red"
+        checked
+      />
+      <label for="red">빨강</label>
+      <input type="checkbox" class="blue" name="color" value="blue" id="blue" />
+      <label for="blue">파랑</label>
+      <input
+        type="checkbox"
+        class="yellow"
+        name="coloe"
+        value="yellow"
+        id="yellow"
+      />
+      <label for="yellow">노랑</label>
+      <button>제출</button>
+    </form>
   </body>
 </html>
