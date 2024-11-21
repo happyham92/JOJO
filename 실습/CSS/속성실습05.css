@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Yeongdo-Rg";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.2/Yeongdo-Rg.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "YOnepickTTF-Bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/YOnepickTTF-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.div1 {
+  font-family: "Gasoek One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.div2 {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: right;
+  font-size: 32px;
+}
+.div3 {
+  font-family: "Yeongdo-Rg";
+}
+.div4 {
+  font-family: "YOnepickTTF-Bold";
+  font-size: 70px;
+  font-weight: 700;
+  color: pink;
+}
