@@ -1,0 +1,42 @@
+div {
+  border: 2px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.div-container {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  position: relative;
+}
+
+.div-item1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  top: 30px;
+  left: 50px;
+  line-height: 100px;
+}
+
+.div-item2 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  position: absolute;
+  bottom: 100px;
+  right: 30px;
+  line-height: 100px;
+}
+
+.div-item3 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: fixed;
+  top: 100px;
+  right: 100px;
+  line-height: 100px;
+}

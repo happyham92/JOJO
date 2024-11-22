@@ -1,0 +1,60 @@
+div {
+  border: 1px solid black;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: beige;
+  position: relative;
+}
+
+.item1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.item2 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.item3 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: absolute;
+  top: 60px;
+  left: 60px;
+}
+.item4 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  top: 210px;
+  left: 210px;
+  z-index: 6;
+}
+.item5 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  top: 240px;
+  left: 240px;
+  z-index: 4;
+}
+.item6 {
+  width: 100px;
+  height: 100px;
+  background-color: navy;
+  position: absolute;
+  top: 270px;
+  left: 270px;
+  z-index: 5;
+}
