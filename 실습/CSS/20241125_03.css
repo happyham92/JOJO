@@ -1,0 +1,24 @@
+.sq {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  border: 1px solid black;
+}
+
+.transform1:hover {
+  width: 200px;
+  height: 100px;
+  background-color: skyblue;
+  border: 1px solid black;
+  transition: ease-in-out 1s;
+}
+
+.transform2:hover {
+  transform: skewX(-45deg);
+  transition: 1s;
+}
+
+.transform4:hover {
+  transform: rotateY(180deg); scale(3);
+  transition: 1s;
+}

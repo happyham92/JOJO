@@ -1,0 +1,33 @@
+.background {
+  width: 100vw;
+  height: 100vw;
+  background-color: beige;
+  /* display: relative; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.pic {
+  width: 300px;
+  height: 200px;
+  /* display: inline-block; */
+}
+.pic1 {
+  background-color: purple;
+  transform: skewY(30deg);
+}
+.pic2 {
+  background-color: blueviolet;
+  transform: skewY(30deg);
+}
+.pic3 {
+  background-color: rgb(169, 121, 214);
+  transform: skewY(30deg);
+}
+
+.pic:hover {
+  transform: rotateX(-30deg);
+  transition: transform 0.7s;
+}
