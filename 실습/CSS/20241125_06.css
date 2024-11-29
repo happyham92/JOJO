@@ -1,0 +1,29 @@
+/* 
+- <p>미디어 쿼리 실습</p> 태그 삽입
+- 화면 넓이 500px을 기준으로 500px 이상일 경우 
+  <body> 태그의 배경색이 하늘색, 300px 이하일 경우 배경색이 오렌지
+- 화면 높이 300px을 기준으로 300px 이하일 경우 
+  <p> 태그의 폰트를 변경 하고, 500px 이상일 경우 배경색이 초록색
+*/
+
+@media (max-width: 300px) {
+  body {
+    background-color: orange;
+  }
+}
+@media (min-width: 500px) {
+  body {
+    background-color: skyblue;
+  }
+}
+@media (max-height: 300px) {
+  p {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+@media (min-height: 500px) {
+  p {
+    background-color: green;
+  }
+}

@@ -8,8 +8,6 @@
 .transform1:hover {
   width: 200px;
   height: 100px;
-  background-color: skyblue;
-  border: 1px solid black;
   transition: ease-in-out 1s;
 }
 
@@ -19,6 +17,6 @@
 }
 
 .transform4:hover {
-  transform: rotateY(180deg); scale(3);
+  transform: rotateY(180deg);scale(3);
   transition: 1s;
 }
